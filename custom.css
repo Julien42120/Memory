@@ -1,0 +1,117 @@
+body{
+    height: 100vh;
+    margin-top: 2vh;
+    
+    text-align: center;
+    background: linear-gradient(215deg, #71b073 29.9%, #2776aa 80%),
+                linear-gradient(304deg, rgba(255, 101, 53, 0.4) 24.9%, #aa2743 91%),
+                linear-gradient(10deg, #b1c9d8 19.9%, #2776aa 50%),
+                linear-gradient(145deg, #f4df26 15.9%, #ff1b9a 40%);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    font-size: calc(1rem + (60 - 30) * ((100vw - 400px) / (2000 - 400)));
+    color: rgba(white, 0.2);
+    flex-grow: 1;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
+    
+}
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+h1 {
+    font-size: calc(10px + 10vh);
+    line-height: calc(15px + 15vh);
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+    
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+.count{
+    height: 5vh;
+    width: 20vw;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 20vw;
+    color: white;
+    font-size: 2vw;
+
+}
+
+.row{
+    margin-left: 18vw;
+}
+
+.container{
+    margin-top: 5%; 
+}
+
+.col-sm-3{
+    background-color: rgba(71, 71, 71, 0.411);
+    border: 2px solid rgb(255, 252, 252);
+    height: 10vw;
+    width: 14vw;
+}
+
+img{
+    margin-top: 2vh;
+    height:6vw;
+}
+
+.gameImg{
+    opacity: 0;
+}
+
+#start-btn{
+  display: none;
+}
+#all-time{
+  font-size: 2vw;
+  text-align: center;
+}
